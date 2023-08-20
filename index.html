@@ -1,0 +1,339 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <title>Animalia – Home</title>
+
+    <link rel="stylesheet" href="./assets/css/main.css">
+    <link rel="stylesheet" href="./assets/css/main-card.css">
+
+    <link href="https://unpkg.com/boxicons@2.1.2/css/boxicons.min.css" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Mr+De+Haviland&family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="https://unpkg.com/flickity@2/dist/flickity.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;700&amp;display=swap" rel="stylesheet">
+    
+    <link rel="shortcut icon" href="./assets/images/logo.svg" type="image/x-icon">
+</head>
+
+<body id="top">
+    <header class="header" data-header>
+        <nav class="header-container container"><a href="index.html" class="nav-logo">
+            <img src="./assets/images/logo.svg" class="nav-logo-img">LuvNature</a>
+                    <div class="nav-header"><button class="header-button"></button>
+                        <button class="header-button header-menu" data-nav-toggler>
+                            <i class="bx bx-menu"></i>
+                        </button>
+                    </div>
+                </nav>
+    </header>
+
+    <div class="sidebar" data-navbar>
+        <div class="close-container"><button class="nav-close-btn" data-nav-toggler><i class="bx bx-x"></i></button>
+        </div>
+        <div class="sidebar-container">
+            <ul class="sidebar-list sidebar-one">
+                <li>
+                    <p class="sidebar-list-title">ANIMALS</p>
+                </li>
+                <li><a href="./animals/tigers.html" class="sidebar-link sidebar-bigger">Tiger</a></li>
+                <li><a href="./animals/rhinos.html" class="sidebar-link sidebar-bigger">Rhinos</a></li>
+                <li><a href="./animals/orangutan.html" class="sidebar-link sidebar-bigger">Orang Utan</a></li>
+                <li><a href="./animals/turtle.html" class="sidebar-link sidebar-bigger">Turtle</a></li>
+                <li><a href="./animals/tapir.html" class="sidebar-link sidebar-bigger">Tapir</a></li>
+                <li><a href="./animals/rhinohornbill.html" class="sidebar-link sidebar-bigger">Rhinocerus Hornbill</a></li>
+            </ul>
+            <ul class="sidebar-list sidebar-two">
+                <li>
+                    <p class="sidebar-list-title">MORE</p>
+                </li>
+                <li><a href="quiz.html" class="sidebar-link sidebar-smaller">Quiz</a></li>
+                <li><a href="resources.html" class="sidebar-link sidebar-smaller">Resources</a></li>
+            </ul>
+        </div>
+    </div>
+    <div class="overlay" data-overlay data-nav-toggler></div>
+    <main class="main">
+        <section class="home section" id="home">
+            <div class="home-container container">
+                <div>
+                    <p class="home-subtitle">Nature | Explore</p>
+                    <h1 class="home-title">Save <strong class="strong">Our Nature</strong></h1>
+                    <p class="home-desc">
+                        The wildlife and its habitat cannot speak, so we must and we will act before its too late.
+                    </p>
+                    <a href="#save" class="button">
+                        <span>Explore</span>
+                    </a>
+                </div>
+                <div class="home-animals">
+                    <p class="home-span-title">Content</p>
+                        <span class="home-span">
+                            <a href="quiz.html" class="home_animals_link">Quiz</a>
+                        </span>
+                        <span class="home-span">
+                            <a href="endangered-species.html" class="home_animals_link home-boxicon header-subscribe">
+                                Endangered Animals<i class="bx bx-right-arrow-alt"></i>
+                            </a>
+                        </span>
+                </div>
+            </div>
+        </section>
+        <section class="save section" id="save">
+            <div class="save-container container">
+                <ul class="save-list grid">
+                    <li>
+                        <p class="save-subtitle">Take action right now!</p>
+                        <h2 class="save-title">Ways to Save Wildlife Today</h2>
+                    </li>
+                    <li>
+                        <div class="save-card">
+                            <div class="save-icon"><img src="./assets/images/icon-1.png" width="71" height="71"
+                                    alt="icon"></div>
+                            <div>
+                                <h3 class="save-card-title">Educate yourself</h3>
+                            </div>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="save-card">
+                            <div class="save-icon"><img src="./assets/images/icon-2.png" width="71" height="71"
+                                    alt="icon"></div>
+                            <div>
+                                <h3 class="save-card-title">Volunteer</h3>
+                            </div>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="save-card">
+                            <div class="save-icon"><img src="./assets/images/icon-3.png" width="71" height="71"
+                                    alt="icon"></div>
+                            <div>
+                                <h3 class="save-card-title">Report abuse</h3>
+                            </div>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="save-card">
+                            <div class="save-icon"><img src="./assets/images/icon-4.png" width="71" height="71"
+                                    alt="icon"></div>
+                            <div>
+                                <h3 class="save-card-title">Donate</h3>
+                            </div>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="save-card">
+                            <div class="save-icon"><img src="./assets/images/icon-5.png" width="71" height="71"
+                                    alt="icon"></div>
+                            <div>
+                                <h3 class="save-card-title">Recycle</h3>
+                            </div>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="save-card">
+                            <div class="save-icon"><img src="./assets/images/icon-6.png" width="71" height="71"
+                                    alt="icon"></div>
+                            <div>
+                                <h3 class="save-card-title">Preserve habitats</h3>
+                            </div>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </section>
+        
+        <section class="facts section container" id="facts">
+            <div class="explore-content facts-heading">
+                <h1 class="explore-title">Interesting Facts</h1>
+                <div class="explore-line"></div>
+            </div>
+             <!-- Flickity HTML init -->
+    <div class="gallery js-flickity" data-flickity-options='{ "wrapAround": true }'>
+        <div class="gallery-cell">
+            <a href="./animals/orangutan.html">
+                <div class="gallery-area-img-container">
+                    <img src="./assets/images/orangutan-1.jpg"class="gallery-img-wrapper">
+                </div>
+            </a>
+            <div class="gallery-content-container">
+                <div class="gallery-title">
+                    <span>Did You Know?</span>
+                </div>
+                <div class="gallery-description-container">
+                    <a href="./animals/orangutan.html" class="gallery-description-link">
+                        <h2 class="gallery-description">
+                            ORANGUTANS ARE THE HEAVIEST TREE-DWELLING ANIMAL
+                        </h2>
+                    </a>
+                </div>
+                <div class="read-container">
+                    <a href="./animals/orangutan.html" class="gallery-container-readmore">
+                        <i class="bx bx-menu"></i>
+                        READ MORE
+                    </a></div>
+        </div>
+        </div>
+        <div class="gallery-cell">
+            <a href="./animals/tigers.html">
+                <div class="gallery-area-img-container">
+                    <img src="./assets/images/tiger-1.jpg" class="gallery-img-wrapper">
+                    </div>
+            </a>
+            <div class="gallery-content-container">
+                <div class="gallery-title">
+                    <span>Did You Know?</span>
+                </div>
+                <div class="gallery-description-container">
+                    <a href="./animals/tigers.html" class="gallery-description-link">
+                        <h2 class="gallery-description"> 
+                            TIGERS HAVE BEEN AROUND FOR OVER 2 MILLION YEARS
+                        </h2>
+                    </a>
+                </div>
+                <div class="read-container">
+                    <a href="./animals/tigers.html" class="gallery-container-readmore">
+                        <i class="bx bx-menu"></i>
+                        READ MORE
+                    </a>
+                </div>
+        </div>
+        </div>
+        <div class="gallery-cell">
+            <a href="./animals/tapir.html">
+                <div class="gallery-area-img-container">
+                    <img src="./assets/images/tapir-1.jpg" class="gallery-img-wrapper">
+                    </div>
+            </a>
+            <div class="gallery-content-container">
+                <div class="gallery-title">
+                    <span>Did You Know?</span>
+                </div>
+                <div class="gallery-description-container">
+                    <a href="./animals/tapir.html" class="gallery-description-link">
+                        <h2 class="gallery-description"> 
+                            TAPIR ARE EXCEPTIONAL SWIMMERS
+                        </h2>
+                    </a>
+                </div>
+                <div class="read-container">
+                    <a href="./animals/tapir.html" class="gallery-container-readmore">
+                        <i class="bx bx-menu"></i>
+                        READ MORE
+                    </a>
+                </div>
+        </div>
+        </div>
+        <div class="gallery-cell">
+            <a href="./animals/rhinos.html">
+                <div class="gallery-area-img-container">
+                    <img src="./assets/images/rhino-1.jpg" class="gallery-img-wrapper">
+                    </div>
+            </a>
+            <div class="gallery-content-container">
+                <div class="gallery-title">
+                    <span>Did You Know?</span>
+                </div>
+                <div class="gallery-description-container">
+                    <a href="./animals/rhinos.html" class="gallery-description-link">
+                        <h2 class="gallery-description"> 
+                            RHINOS CAN WEIGH OVER 3 TONNES
+                        </h2>
+                    </a>
+                </div>
+                <div class="read-container">
+                    <a href="./animals/rhinos.html" class="gallery-container-readmore">
+                        <i class="bx bx-menu"></i>
+                        READ MORE
+                    </a>
+                </div>
+        </div>
+        </div>
+        <div class="gallery-cell">
+            <a href="./animals/turtle.html">
+                <div class="gallery-area-img-container">
+                    <img src="./assets/images/turtle-1.jpg" class="gallery-img-wrapper">
+                    </div>
+            </a>
+            <div class="gallery-content-container">
+                <div class="gallery-title">
+                    <span>Did You Know?</span>
+                </div>
+                <div class="gallery-description-container">
+                    <a href="./animals/turtle.html" class="gallery-description-link">
+                        <h2 class="gallery-description"> 
+                            SEA TURTLES DON’T RETRACT INTO THEIR SHELLS
+                        </h2>
+                    </a>
+                </div>
+                <div class="read-container">
+                    <a href="./animals/turtle.html" class="gallery-container-readmore">
+                        <i class="bx bx-menu"></i>
+                        READ MORE
+                    </a>
+                </div>
+        </div>
+        </div>
+        </div>
+        </section>
+
+        <section class="recommended section container" id="recommended">
+            <div class="explore-content facts-heading">
+                <h1 class="explore-title">Endangered Species</h1>
+                <div class="explore-line"></div>
+            </div>
+
+            <div class="grid">
+                <div class="card">
+                  <div class="content">
+                    <h2 class="title">Tapir</h2>
+                    <p class="copy">Tapirs are large, herbivorous mammals belonging to the family Tapiridae.</p>
+                    <button class="btn" onclick="location.href = 'animals/tapir.html';">View More</button>
+                  </div>
+                </div>
+                <div class="card">
+                  <div class="content">
+                    <h2 class="title">Tiger</h2>
+                    <p class="copy">The tiger is the largest living cat species </p>
+                    <button class="btn" onclick="location.href = 'animals/tigers.html';">View More</button>
+                  </div>
+                </div>
+                <div class="card">
+                  <div class="content">
+                    <h2 class="title">Turtle</h2>
+                    <p class="copy">Turtles are an order of reptiles known as Testudines</p>
+                    <button class="btn" onclick="location.href = 'animals/turtle.html';">View More</button>
+                  </div>
+                </div>
+                <div class="card">
+                  <div class="content">
+                    <h2 class="title">Rhinos</h2>
+                    <p class="copy">A rhinoceros is a member of any of the five extant species of odd-toed ungulates in the family Rhinocerotidae. </p>
+                    <button class="btn" onclick="location.href = 'animals/rhinos.html';">View More</button>
+                  </div>
+                </div>
+            </div>
+
+        </section>
+        <div class="view-more-container center">
+            <a href="endangered-species.html" class="view-more-link header-subscribe">View more</a>
+        </div>
+    </main>
+   
+    <footer class="footer section">
+        <div class="footer-container container">
+            <p class="copyright">Copyright 2023&nbsp;<a href="" target="_blank"
+                    class="copyright-link">LuvNature</a>.&nbsp;All Rights Reserved.</p>
+        </div>
+    </footer><a href="#" class="scrollup" id="scroll-up"><i class="bx bx-up-arrow-alt scrollup__icon"></i></a>
+    <script src="./assets/js/main.js"></script>
+    <script src="https://unpkg.com/flickity@2/dist/flickity.pkgd.min.js"></script>
+
+</body>
+
+</html>

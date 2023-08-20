@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <title>LuvNature | Endangered Species</title>
+
+    <link rel="stylesheet" href="./assets/css/main.css">
+    <link rel="stylesheet" href="./assets/css/filter.css">
+
+    <link href="https://unpkg.com/boxicons@2.1.2/css/boxicons.min.css" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Mr+De+Haviland&family=Roboto:wght@400;500;700&display=swap"
+        rel="stylesheet">
+        <link rel="stylesheet" href="https://unpkg.com/flickity@2/dist/flickity.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;700&amp;display=swap" rel="stylesheet">
+    <link rel="shortcut icon" href="./assets/images/logo.svg" type="image/x-icon">
+    
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+  </head>
+
+<body>
+    <header class="header" data-header>
+        <nav class="header-container container">
+          <a href="index.html" class="nav-logo">
+          <img src="./assets/images/logo.svg" class="nav-logo-img">
+          LuvNature
+        </a>
+            <div class="nav-header">
+              <button class="header-button">
+                <a href="index.html" class="header-link header-subscribe home-boxicon">
+                  <i class="bx bx-left-arrow-alt"></i>
+                  Back Home
+                </a>
+              </button>
+            </div>
+        </nav>
+    </header>
+
+    <main class="main">
+        <section class="animal section is-null">
+            <div class="animal-container">
+                <h2 class="animal-title">Endangered Species</h2>
+            </div>
+        </section>
+
+        <section class="blog section blog" id="blog">
+            <div class="container">
+                <div class="projectFilter">
+                  <button type="button" data-filter="all" class="btn btn-outline-primary">All Categories</button>
+                  <button type="button" class="btn btn-outline-primary" data-filter="mammals">Mammals</button>
+                  <button type="button" class="btn btn-outline-primary" data-filter="reptiles">Reptiles</button>
+                  <button type="button" class="btn btn-outline-primary" data-filter="birds">Birds</button>
+                 
+                </div>
+                  <div class="grid">
+                    <div class="card filter mammals">
+                      <div class="content">
+                        <h2 class="title">Tapir</h2>
+                        <p class="copy">Tapirs are large, herbivorous mammals belonging to the family Tapiridae.</p>
+                        <button class="btn" onclick="location.href = 'animals/tapir.html';">View More</button>
+                      </div>
+                    </div>
+                    <div class="card filter mammals">
+                      <div class="content">
+                        <h2 class="title">Tiger</h2>
+                        <p class="copy">The tiger is the largest living cat species </p>
+                        <button class="btn" onclick="location.href = 'animals/tigers.html';">View More</button>
+                      </div>
+                    </div>
+                    <div class="card filter reptiles">
+                      <div class="content">
+                        <h2 class="title">Turtle</h2>
+                        <p class="copy">Turtles are an order of reptiles known as Testudines </p>
+                        <button class="btn" onclick="location.href = 'animals/turtle.html';">View More</button>
+                      </div>
+                    </div>
+                    <div class="card filter mammals">
+                      <div class="content">
+                        <h2 class="title">Rhinos</h2>
+                        <p class="copy">A rhinoceros is a member of any of the five extant species of odd-toed ungulates in the family Rhinocerotidae.</p>
+                        <button class="btn" onclick="location.href = 'animals/rhinos.html';">View More</button>
+                      </div>
+                    </div>
+                    <div class="card filter mammals">
+                      <div class="content">
+                        <h2 class="title">Orang utan</h2>
+                        <p class="copy">Orangutans are great apes native to the rainforests of Indonesia and Malaysia</p>
+                        <button class="btn" onclick="location.href = 'animals/orangutan.html';">View More</button>
+                      </div>
+                    </div>
+                    <div class="card filter birds">
+                      <div class="content">
+                        <h2 class="title">Rhinocerus Hornbill</h2>
+                        <p class="copy">Large species of forest hornbil</p>
+                        <button class="btn" onclick="location.href = 'animals/rhinohornbill.html';">View More</button>
+                      </div>
+                    </div>
+                </div>
+              </div>
+          </section>
+    </main>
+
+    <footer class="footer section">
+        <div class="footer-container container">
+            <p class="copyright">Copyright 2023&nbsp;
+              <a href="https://github.com/mde3" target="_blank"
+                    class="copyright-link">LuvNature</a>
+                    .&nbsp;All Rights Reserved.</p>
+        </div>
+    </footer><a href="#" class="scrollup" id="scroll-up"><i class="bx bx-up-arrow-alt scrollup__icon"></i></a>
+    
+    <script src="./assets/js/main.js"></script>
+    <script src="./assets/js/filter.js"></script>
+    
+</body>
+</html>
