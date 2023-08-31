@@ -16,7 +16,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Mr+De+Haviland&family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
         <link rel="stylesheet" href="https://unpkg.com/flickity@2/dist/flickity.min.css">
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;700&amp;display=swap" rel="stylesheet">
-    
+   
     <link rel="shortcut icon" href="./assets/images/logo.svg" type="image/x-icon">
 </head>
 
@@ -46,6 +46,10 @@
                 <li><a href="./animals/turtle.html" class="sidebar-link sidebar-bigger">Turtle</a></li>
                 <li><a href="./animals/tapir.html" class="sidebar-link sidebar-bigger">Tapir</a></li>
                 <li><a href="./animals/rhinohornbill.html" class="sidebar-link sidebar-bigger">Rhinocerus Hornbill</a></li>
+                <li><a href="./animals/dugong.html" class="sidebar-link sidebar-bigger">Dugong</a></li>
+                <li><a href="./animals/bluewhale.html" class="sidebar-link sidebar-bigger">Blue Whale</a></li>
+                <li><a href="./animals/steppe-eagle.html" class="sidebar-link sidebar-bigger">Steppe Eagle</a></li>
+            </ul>
             </ul>
             <ul class="sidebar-list sidebar-two">
                 <li>
@@ -83,6 +87,7 @@
                 </div>
             </div>
         </section>
+
         <section class="save section" id="save">
             <div class="save-container container">
                 <ul class="save-list grid">
@@ -146,6 +151,17 @@
                     </li>
                 </ul>
             </div>
+        </section>
+
+        <section class="facts section container" id="facts">
+            <div class="explore-content facts-heading">
+                <h1 class="explore-title">Why Save Wildlife?</h1>
+                <div class="explore-line"></div>
+            </div>
+            <div class="chart center">
+                <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+                <canvas id="endangeredChart"></canvas>
+              </div>              
         </section>
         
         <section class="facts section container" id="facts">
@@ -332,8 +348,9 @@
         </div>
     </footer><a href="#" class="scrollup" id="scroll-up"><i class="bx bx-up-arrow-alt scrollup__icon"></i></a>
     <script src="./assets/js/main.js"></script>
+    <script src="./assets/js/chart.js"></script>
     <script src="https://unpkg.com/flickity@2/dist/flickity.pkgd.min.js"></script>
-
+    
 </body>
 
 </html>
