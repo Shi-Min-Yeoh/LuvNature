@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <title>LuvNature | Blue Whale</title>
+
+    <link rel="stylesheet" href="../assets/css/main.css">
+    <link rel="stylesheet" href="../assets/css/table.css">
+    <link rel="stylesheet" href="../assets/css/flip-card.css">
+    <link rel="stylesheet" href="../assets/css/animal-gallery.css">
+
+    <link href="https://unpkg.com/boxicons@2.1.2/css/boxicons.min.css" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Mr+De+Haviland&family=Roboto:wght@400;500;700&display=swap"
+        rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;700&amp;display=swap" rel="stylesheet">
+    
+    <link rel="shortcut icon" href="../assets/images/logo.svg" type="image/x-icon">
+    
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+</head>
+
+<body>
+    <header class="header" data-header>
+        <nav class="header-container container">
+            <a id="bluewhale" href="#" onclick="bluewhale();" class="nav-logo">
+            <img src="../assets/images/acoustic.svg" class="nav-logo-img">
+            Blue Whale Sound
+            <audio hidden>
+                <source src="../assets/sounds/bluewhale.mp3" type="audio/mp3">
+              </audio>
+        </a>
+            <div class="nav-header">
+                <button class="header-button">
+                <a href="../index.html" class="header-link header-subscribe home-boxicon">
+                        <i class="bx bx-left-arrow-alt"></i>
+                        Back Home
+                    </a>
+                </button>
+            </div>
+        </nav>
+    </header>
+
+<main class="main"> 
+    <section class="animal section is-bluewhale">
+        <div class="animal-container">
+            <p class="animal-subtitle">The largest animal on Earth</p>
+            <h2 class="animal-title">Blue Whale</h2>
+        </div>
+    </section>
+
+    <!-- About Blue Whale section -->
+    <section class="blog section blog" id="blog">
+        <div class="blog-title-container container">
+            <div class="top-title">
+                <h3 class="top-title-h3 animal-title-h3">About Blue Whale</h3>
+            </div>
+        </div>
+        <div class="blog-container container">
+            <table>
+                <tr>
+                    <th>Characteristic</th>
+                    <th>Value</th>
+                </tr>
+                <tr>
+                    <td>Weight</td>
+                    <td>Largest found: About 200 tons</td>
+                </tr>
+                <tr>
+                    <td>Size</td>
+                    <td>Up to 98 feet (30 meters)</td>
+                </tr>
+                <tr>
+                    <td>Speed</td>
+                    <td>20 mph (32 km/h)</td>
+                </tr>
+                <tr>
+                    <td>Lifespan</td>
+                    <td>Up to 90 years</td>
+                </tr>
+                <tr>
+                    <td>Foods</td>
+                    <td>Krill and other small marine organisms</td>
+                </tr>
+                <tr>
+                    <td>Predators</td>
+                    <td>Humans (historically)</td>
+                </tr> 
+                <tr>
+                    <td>Family</td>
+                    <td>Balaenopteridae</td>
+                </tr> 
+                <tr>
+                    <td>Scientific name	</td>
+                    <td>Balaenoptera musculus</td>
+                </tr>
+                <tr>
+                    <td>Numbers left</td>
+                    <td>Estimated 10,000 to 25,000</td>
+                </tr>  
+                <tr>
+                    <td>Conservation Status </td>
+                    <td>Endangered</td>
+                </tr>
+                <tr>
+                    <td>Habitat </td>
+                    <td>Oceans worldwide</td>
+                </tr>                             
+            </table>
+        </div>
+    </section>
+
+    <!-- Fun Facts section -->
+    <section class="blog" id="blog" style="padding-bottom: 1.5rem;">
+        <div class="blog-title-container container">
+            <div class="top-title">
+                <h3 class="top-title-h3 animal-title-h3">Fun Facts about Blue Whale</h3>
+            </div>
+        </div>
+        <div class="blog-container container">
+            <div class="wrapper">
+                <div class="box">
+                   <div class="front-face">
+                      <span>Blue whales are the largest animals ever known to exist on Earth</span>
+                   </div>
+                   <div class="back-face">
+                      <span>Largest animals ever known</span>
+                      <p>
+                        Blue whales are the largest animals and among the loudest creatures on the planet. Their sounds can be heard from miles away.
+                      </p>
+                   </div>
+                </div>
+                <div class="box">
+                    <div class="front-face">
+                       <span>A blue whale's tongue can weigh as much as an elephant</span>
+                    </div>
+                    <div class="back-face">
+                       <span>A blue whale's tongue can weigh as much as an elephant</span>
+                       <p>
+                        A blue whale's tongue alone can weigh as much as an elephant, and its heart can be as large as a car.
+                       </p>
+                    </div>
+                 </div>
+                <div class="box">
+                   <div class="front-face">
+                      <span>Blue whales are filter feeders</span>
+                   </div>
+                   <div class="back-face">
+                      <span>Blue whales are filter feeders</span>
+                      <p>
+                        Blue whales feed by opening their mouths wide and swimming through large groups of krill, filtering out the tiny crustaceans using baleen plates in their mouths.
+                      </p>
+                   </div>
+                </div>
+                <div class="box">
+                   <div class="front-face">
+                      <span>Blue whales have heartbeats that can be heard from over 2 miles away</span>
+                   </div>
+                   <div class="back-face">
+                      <span>Loud heartbeats</span>
+                      <p>Blue whales have enormous hearts, and their heartbeat's low-frequency sound can be detected from a distance of more than 2 miles.</p>
+                   </div>
+                </div>
+             </div>
+        </div>
+    </section>
+
+    <section class="blog" id="blog" style="padding-bottom: 1.5rem;">
+        <div class="blog-title-container container">
+            <div class="top-title">
+                <h3 class="top-title-h3 animal-title-h3">My Population</h3>
+            </div>
+        </div>
+        <div class="blog-container container">
+            <div class="chart center">
+                <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+                <canvas id="bluewhaleChart"></canvas>
+              </div>
+        </div>
+    </section>
+
+    <!-- Videos section -->
+    <section class="blog" id="blog" style="padding-bottom: 1.5rem;">
+        <div class="blog-title-container container">
+            <div class="top-title">
+                <h3 class="top-title-h3 animal-title-h3">Videos @NatGeo</h3>
+            </div>
+        </div>
+        <div class="blog-container container">
+            <div class="vid center">
+                <iframe width="560" height="315" src="../assets/videos/bluewhale.mp4" style="border:2px solid #b08d57;" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+            </div>
+        </div>
+    </section>
+
+    <!-- Gallery section -->
+    <section class="blog" id="blog" style="padding-bottom: 1.5rem;">
+        <div class="blog-title-container container">
+            <div class="top-title">
+                <h3 class="top-title-h3 animal-title-h3">Gallery</h3>
+            </div>
+        </div>
+        <div class="blog-container container">
+            <div class="gallery center">
+                <img src="../assets/images/bluewhale-1.jpg" alt="Blue Whale Swimming">
+                <img src="../assets/images/bluewhale-2.jpg" alt="Blue Whale Tail">
+                <img src="../assets/images/bluewhale-3.jpg" alt="Blue Whale Jumping">
+                <img src="../assets/images/bluewhale-5.avif" alt="Blue Whale Surface">
+              </div>
+        </div>
+    </section>
+
+</main>
+
+    <footer class="footer section">
+        <div class="footer-container container">
+            <p class="copyright">Copyright 2023&nbsp;<a href="https://github.com/mde3" target="_blank"
+                    class="copyright-link">LuvNature</a>.&nbsp;All Rights Reserved.</p>
+        </div>
+    </footer>
+
+    <a href="#" class="scrollup" id="scroll-up"><i class="bx bx-up-arrow-alt scrollup__icon"></i></a>
+    
+    <script src="../assets/js/main.js"></script>
+    <script src="../assets/js/sound.js"></script>
+    <script src="../assets/js/chart5.js"></script>
+
+</body>
+</html>

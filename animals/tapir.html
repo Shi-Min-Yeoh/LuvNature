@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <title>LuvNature | Tapir</title>
+
+    <link rel="stylesheet" href="../assets/css/main.css">
+    <link rel="stylesheet" href="../assets/css/table.css">
+    <link rel="stylesheet" href="../assets/css/flip-card.css">
+    <link rel="stylesheet" href="../assets/css/animal-gallery.css">
+
+    <link href="https://unpkg.com/boxicons@2.1.2/css/boxicons.min.css" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Mr+De+Haviland&family=Roboto:wght@400;500;700&display=swap"
+        rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;700&amp;display=swap" rel="stylesheet">
+    
+    <link rel="shortcut icon" href="../assets/images/logo.svg" type="image/x-icon">
+    
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+</head>
+
+<body>
+    <header class="header" data-header>
+        <nav class="header-container container">
+            <a id="tapir" href="#" onclick="tapir();" class="nav-logo">
+            <img src="../assets/images/acoustic.svg" class="nav-logo-img">
+            Tapir Sound
+            <audio hidden>
+                <source src="../assets/sounds/tapir.mp3" type="audio/mp3">
+              </audio>
+        </a>
+            <div class="nav-header">
+                <button class="header-button">
+                <a href="../index.html" class="header-link header-subscribe home-boxicon">
+                        <i class="bx bx-left-arrow-alt"></i>
+                        Back Home
+                    </a>
+                </button>
+            </div>
+        </nav>
+    </header>
+
+    <main class="main"> 
+        <section class="animal section is-tapir">
+            <div class="animal-container">
+                <p class="animal-subtitle">Large, Herbivorous Mammals</p>
+                <h2 class="animal-title">Tapir</h2>
+            </div>
+        </section>
+
+        <section class="blog section blog" id="blog">
+            <div class="blog-title-container container">
+                <div class="top-title">
+                    <h3 class="top-title-h3 animal-title-h3">About Tapir</h3>
+                </div>
+            </div>
+            <div class="blog-container container">
+                <table>
+                    <tr>
+                        <th>Characteristic</th>
+                        <th>Value</th>
+                    </tr>
+                    <tr>
+                        <td>Weight</td>
+                        <td>200-400 kg</td>
+                    </tr>
+                    <tr>
+                        <td>Height</td>
+                        <td>0.7-1.2 meters</td>
+                    </tr>
+                    <tr>
+                        <td>Speed</td>
+                        <td>Up to 30 mph (48 km/h)</td>
+                    </tr>
+                    <tr>
+                        <td>Lifespan</td>
+                        <td>20-25 years</td>
+                    </tr>
+                    <tr>
+                        <td>Foods</td>
+                        <td>Plants, leaves, fruits</td>
+                    </tr>
+                    <tr>
+                        <td>Predators</td>
+                        <td>Wildcats, crocodiles</td>
+                    </tr> 
+                    <tr>
+                        <td>Family</td>
+                        <td>Tapiridae</td>
+                    </tr> 
+                    <tr>
+                        <td>Scientific name	</td>
+                        <td>Tapiridae</td>
+                    </tr>
+                    <tr>
+                        <td>Numbers left</td>
+                        <td>Between 3,000 and 4,500</td>
+                    </tr>  
+                    <tr>
+                        <td>Conservation Status </td>
+                        <td>Malayan tapir – Endangered<br>
+                            Mountain tapir – Endangered<br>
+                            Baird’s tapir – Endangered<br>
+                            Lowland tapir – Vulnerable</td>
+                    </tr>                            
+                </table>
+            </div>
+        </section>
+
+        <section class="blog" id="blog" style="padding-bottom: 1.5rem;">
+            <div class="blog-title-container container">
+                <div class="top-title">
+                    <h3 class="top-title-h3 animal-title-h3">Fun Fact</h3>
+                </div>
+            </div>
+            <div class="blog-container container">
+                <div class="wrapper">
+                    <div class="box">
+                       <div class="front-face">
+                          <span>They are great swimmers</span>
+                       </div>
+                       <div class="back-face">
+                          <span>Great swimmers</span>
+                          <p>
+                            Tapirs spend a lot of their time in water. They submerge themselves in water to cool off.They also walk along the bottom of riverbeds, like hippos, searching for plants to graze on
+                          </p>
+                       </div>
+                    </div>
+                    <div class="box">
+                        <div class="front-face">
+                           <span>They have poor eyesight</span>
+                        </div>
+                        <div class="back-face">
+                           <span>Poor eyesight</span>
+                           <p>
+                            Tapirs have small eyes and monocular vision. Their eyes are unable to coordinate with each other to form one cohesive image but they have good olfactory and auditory sensess.
+                           </p>
+                        </div>
+                     </div>
+                    <div class="box">
+                       <div class="front-face">
+                          <span>They are very vocal animals</span>
+                       </div>
+                       <div class="back-face">
+                          <span>Vocal animals</span>
+                          <p>
+                            A variety of different vocalizations are used by tapirs to communicate.They have been observed to produce high-frequency whistles, as well as grunts, to get their messages across
+                          </p>
+                       </div>
+                    </div>
+                    <div class="box">
+                       <div class="front-face">
+                          <span>They might be more sociable than we first thought</span>
+                       </div>
+                       <div class="back-face">
+                          <span>They might be more sociable</span>
+                          <p>Once solitary, tapirs now exhibit group foraging, suggesting previously unrecognized social behaviors.
+                          </p>
+                       </div>
+                    </div>
+                 </div>
+            </div>
+        </section>
+
+        <section class="blog" id="blog" style="padding-bottom: 1.5rem;">
+            <div class="blog-title-container container">
+                <div class="top-title">
+                    <h3 class="top-title-h3 animal-title-h3">My location</h3>
+                </div>
+            </div>
+            <div class="blog-container container">
+                <div class="mapouter center">
+                    <iframe src="https://www.google.com/maps/d/embed?mid=1xicwvpdzucpnNVs2gP_oOhusjxvL0hg&ehbc=2E312F" width="640" height="480"></iframe>
+                </div>
+            </div>
+        </section>
+
+        <section class="blog" id="blog" style="padding-bottom: 1.5rem;">
+            <div class="blog-title-container container">
+                <div class="top-title">
+                    <h3 class="top-title-h3 animal-title-h3">My Population</h3>
+                </div>
+            </div>
+            <div class="blog-container container">
+                <div class="chart center">
+                    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+                    <canvas id="tapirChart"></canvas>
+                  </div>
+            </div>
+        </section>
+
+        <section class="blog" id="blog" style="padding-bottom: 1.5rem;">
+            <div class="blog-title-container container">
+                <div class="top-title">
+                    <h3 class="top-title-h3 animal-title-h3">Gallery</h3>
+                </div>
+            </div>
+            <div class="blog-container container">
+                <div class="gallery center">
+                    <img src="../assets/images/tapir-1.jpg" alt="Two hands creating a heart and showing the sun">
+                    <img src="../assets/images/tapir-2.jpg" alt="The mountain">
+                    <img src="../assets/images/tapir-3.jpg" alt="a river">
+                    <img src="../assets/images/tapir-4.jpg" alt="a women with a camera">
+                  </div>
+            </div>
+        </section>
+
+    </main>
+
+    <footer class="footer section">
+        <div class="footer-container container">
+            <p class="copyright">Copyright 2023&nbsp;<a href="https://github.com/mde3" target="_blank"
+                    class="copyright-link">LuvNature</a>.&nbsp;All Rights Reserved.</p>
+        </div>
+    </footer>
+
+    <a href="#" class="scrollup" id="scroll-up"><i class="bx bx-up-arrow-alt scrollup__icon"></i></a>
+    
+    <script src="../assets/js/main.js"></script>
+    <script src="../assets/js/sound.js"></script>
+    <script src="../assets/js/chart2.js"></script>
+
+</body>
+</html>
