@@ -1,5 +1,4 @@
-# Bookmarks
-## Coding
+# Full list of resources used
 ### LuvNature
 #### Coding Template
 - [mde3/animalia: Wildlife and Animal Conservation](https://github.com/mde3/animalia)
